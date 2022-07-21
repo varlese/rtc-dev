@@ -1,3 +1,5 @@
 items:
-- title: 'Generic Page'
-  url: '/generic-page'
+- title: 'About'
+  url: '/about'
+- title: 'Take Action'
+  url: '/take-action'
