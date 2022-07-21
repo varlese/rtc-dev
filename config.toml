@@ -1,5 +1,5 @@
 languageCode = "en-us"
-title = "Massively"
+title = "Right to Councel Jersey City"
 baseURL = "https://northnjdsa.github.io/righttocouncel.github.io/"
 theme = "hugo-theme-massively"
 googleanalytics = ""
@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
   # favicon = "favicon.ico"
   # set to change date format
   # dateFormat = "2.1.2006"
-  # backgroundPath = "images/bg.jpg"
+backgroundPath = "images/bg.jpg"
 
 # Below parameters can be set to override default post settings
 # [params.posts]
