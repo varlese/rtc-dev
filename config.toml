@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Massively"
-baseURL = "https://northnjdsa.github.io/righttocouncel.github.io"
+baseURL = "https://northnjdsa.github.io/righttocouncel.github.io/"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
