@@ -27,7 +27,7 @@ backgroundPath = "public/images/bg.jpg"
   languageName = "English"
 [languages.es]
   languageName = "Español"
-  title = "Massively - Versión Español"
+  title = ""
 #[languages.fr]
 #  languageName = "Français"
 #  title = "Massively - Version Française"
