@@ -1,12 +1,9 @@
 +++
-title = 'About'
+title = 'About Right to Counsel'
 slug = 'about'
 image = ''
-description = 'About DSA'
 disableComments = true
 +++
-# About Right to Counsel 
-
 Nationwide, only 3% of tenants are represented in housing court, while for landlords that’s more like 81% on average. Housing is a human right and no one should have to fight for their homes without fair representation. It’s time to demand Jersey City level the playing field and reign in landlord power. **We need to guarantee the right to counsel for ALL tenants.**
 
 ## A right to counsel for tenants
@@ -25,6 +22,6 @@ Rather than wait for our leaders to figure it out and risk a watered down progra
 
 The Democratic Socialists of America is a nearly 100,000 member strong organization fighting for a political system and economy which works for all. Capitalist greed has led to… We need to take power back from landlords, bosses, and politicians who only care about lining their pockets, not people. Join us today and let’s fight for a better world!
 
-[North New Jersey DSA](https://north.dsanj.org/)
+{{< button link="https://north.dsanj.org/" text="North New Jersey DSA" >}}
 
-[Join DSA](https://act.dsausa.org/donate/membership/)
+{{< button link="https://act.dsausa.org/donate/membership/" text="Join DSA" >}}
