@@ -1,7 +1,7 @@
 +++
 title = 'Take Action'
 slug = 'take-action'
-<!-- image = 'images/pic02.jpg' -->
+image = ''
 description = 'Take Action'
 disableComments = true
 +++
