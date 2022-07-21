@@ -3,7 +3,7 @@
 {{ $currentPage := .Page }}
 <nav id="nav">
     <ul class="links">
-        <li class="{{ if eq ($currentPage.Permalink) (`/`) }}active{{end}}"><a href='{{ "/" | absLangURL }}'>Home</a></li>
+        <li class="{{ if eq ($currentPage.Permalink) (`/`) }}active{{end}}"><a href='{{ "" | absLangURL }}'>Home</a></li>
         {{- with $data.nav.items -}}
             {{- range $i, $e := . -}}
                 <li class="{{ if eq ($currentPage.Permalink) (print .url `/`) }}active{{end}}"><a href='{{ .url | absLangURL }}'>{{- .title -}}</a></li>
