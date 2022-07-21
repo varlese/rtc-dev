@@ -1,8 +1,8 @@
 +++
-title = 'Get Involved'
-slug = 'get-involved'
+title = 'Take Action'
+slug = 'take-action'
 image = 'images/pic02.jpg'
-description = 'Get Involved'
+description = 'Take Action'
 disableComments = true
 +++
 # Get Involved
