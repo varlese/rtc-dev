@@ -27,7 +27,7 @@ backgroundPath = "public/images/bg.jpg"
   languageName = "English"
 [languages.es]
   languageName = "Español"
-  title = ""
+  title = "Derecho a un abogado - Jersey City"
 #[languages.fr]
 #  languageName = "Français"
 #  title = "Massively - Version Française"
