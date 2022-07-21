@@ -1,7 +1,7 @@
 +++
 title = 'About'
 slug = 'about'
-image = 'images/pic02.jpg'
+<!-- image = 'images/pic02.jpg' -->
 description = 'About DSA'
 disableComments = true
 +++
