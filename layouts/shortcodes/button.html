@@ -1,2 +1,7 @@
-<a href="{{ .Get "link" }}" class="button">{{ .Get "text" }}</a>
-
+<a 
+    href="{{ .Get "link" }}"
+    class="button"
+    {{ with .Get "target" }}target="{{.}}"{{ end }}
+>
+    {{ .Get "text" }}
+</a>
