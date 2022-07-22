@@ -1,15 +1,16 @@
-<!-- Featured Post -->
-{{ $data := .siteData }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.homepage }}
 <article class="post featured">
     <header class="major">
-        <h2>We are Fighting for Right to Counsel in Jersey City</h2>
-        <p>We are in an eviction crisis. The pandemic has left millions at risk of losing their homes with rents reaching record highs and evictions exceeding pre-pandemic levels. </p>
-
-        <p>Nationwide, only 3% of tenants are represented in housing court, while for landlords that’s more like 81% on average. Housing is a human right and no one should have to fight for their homes without fair representation. It’s time to demand Jersey City level the playing field and reign in landlord power. **We need to guarantee the right to counsel for ALL tenants.**</p>
-            
-        <p>JERSEY CITY, MAKE IT OURS</p>
+        {{ if .title }}
+            <h2>{{- .title -}}</h2>
+        {{ end }}
+        {{- range $i, $e := .text -}}
+            <p>{{- .line -}}</p>
+        {{- end -}}
     </header>
-    {{ if .Params.image }}
-    <img src="{{ .Params.image | relURL }}" alt="" />
+    {{ if .image }}
+    <img src="{{ .image | relURL }}" alt="" />
     {{ end }}
 </article>
+{{- end -}}
