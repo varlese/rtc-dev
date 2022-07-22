@@ -1,5 +1,11 @@
 {{ partial "htmlhead" . }}
 	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+		<style>
+			body {
+				background-color: #000;
+			}
+
+		</style>
 
 		{{- $postsFoldername := .Site.Params.Posts.foldername | default "post" }}
 		{{- $postsPageSize := .Site.Params.Posts.pagesize | default 6 }}
