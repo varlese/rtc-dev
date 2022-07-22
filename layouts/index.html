@@ -41,6 +41,7 @@
 					<div id="main">
                         {{- partial "home-intro.html" . -}}
 
+                        <div id="updates"></div>
 						{{- if (eq $postsFeaturedPostEnabled true) }}
 						{{- partial "posts/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
 						{{- end }}
@@ -52,7 +53,7 @@
 						{{- $paginator := .Paginator }}
 						{{- $outer := . }}
 						{{- partial "posts/pagination.html" (dict "paginator" $paginator "outer" $outer)}}
-
+                        
 					</div>
 
 					{{- partial "footer/index" . }}
