@@ -5,12 +5,12 @@
         {{ if .title }}
             <h2>{{- .title -}}</h2>
         {{ end }}
+        {{ if .image }}
+            <img src="{{ .image.url | relURL }}" alt="{{ .image.label }}" />
+        {{ end }}
         {{- range $i, $e := .text -}}
             <p>{{- .line -}}</p>
         {{- end -}}
     </header>
-    {{ if .image }}
-    <img src="{{ .image | relURL }}" alt="" />
-    {{ end }}
 </article>
 {{- end -}}
