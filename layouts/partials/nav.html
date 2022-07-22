@@ -9,7 +9,7 @@
                 <li class="{{ if eq ($currentPage.Permalink) (print .url `/`) }}active{{end}}"><a href='{{ .url | absLangURL }}'>{{- .title -}}</a></li>
             {{- end -}}
         {{- end -}}
-        <li><a href='{{ "#updates" | relLangURL }}'>{{ i18n "updates_label" . }}</a></li>
+        <li><a href='{{ "#updates" | relLangURL }}'>{{ i18n "UPDATES_LABEL" . }}</a></li>
         {{ with $data.contactinfo }}
         <li><a href='{{ "#footer" | relLangURL }}'>{{ i18n "NAV_CONTACT" . }}</a></li>
         {{ end }}

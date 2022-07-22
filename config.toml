@@ -25,7 +25,6 @@ backgroundPath = "public/images/bg.jpg"
 [languages]
 [languages.en]
   languageName = "English"
-  updates_label = "Updates"
 [languages.es]
   languageName = "Español"
   title = "Derecho a un abogado - Jersey City"
