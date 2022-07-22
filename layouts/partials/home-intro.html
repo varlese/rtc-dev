@@ -6,7 +6,7 @@
             <h2>{{- .title -}}</h2>
         {{ end }}
         {{ if .image }}
-            <img src="{{ .image.url | relURL }}" alt="{{ .image.label }}" />
+            <img src="{{ .image | absURL }}" />
         {{ end }}
         {{- range $i, $e := .text -}}
             <p>{{- .line -}}</p>
