@@ -1,3 +1,2 @@
-# righttocouncel.github.io
-Right to Councel Campaign Site
-Right to Councel Campaign site
+# righttocounsel.github.io
+Right to Counsel Campaign Site
