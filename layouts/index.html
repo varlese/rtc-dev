@@ -1,8 +1,17 @@
 {{ partial "htmlhead" . }}
 	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
 		<style>
-			/* add custom CSS */
+			#wrapper > .bg {
+				background: rgb(236,31,39);
+				background: radial-gradient(circle, rgba(236,31,39,1) 70%, rgba(84,89,95,1) 100%); 
+			}
 
+			#intro {
+				background: url('{{ "images/rtcbg.jpeg" | absLangURL }}');
+				background-position: center 60px;
+				background-repeat: no-repeat;
+				background-size: 1534px
+			}
 		</style>
 
 		{{- $postsFoldername := .Site.Params.Posts.foldername | default "post" }}
