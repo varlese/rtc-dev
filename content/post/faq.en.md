@@ -42,7 +42,7 @@ Prior to RTC’s implementation, only one percent of tenants were represented by
 
 In particular, Right to Counsel makes it more difficult for landlords to use evictions as a harassment tactic. **In New York City, eviction filings declined by about 30 percent after the implementation of Right to Counsel.**
 
-Comparing Hudson County (modeled data) with Philadelphia & NYC (RTC cities) 
+Comparing Hudson County (modeled data) with Philadelphia & NYC (RTC cities)   
 _Source: [Eviction Lab modeled data from 2018](https://evictionlab.org/methods/#what-data)_
 
 |  | Philadelphia County | Hudson County | Kings County | 
@@ -52,4 +52,4 @@ _Source: [Eviction Lab modeled data from 2018](https://evictionlab.org/methods/#
 | Eviction Filings | 23,100 | 14,800 | 65,100 |
 | Household Threatened Rate | 6.8% | 5.8% | 7% |
 
-As evictions return to and exceed pre-pandemic levels, eviction data has been hard to acquire , especially from Hudson County. Eviction Lab, a research group from Princeton University has provided us with modeled data for eviction rates in Hudson County. Despite being much less populous, Hudson County contends with its two major city neighbors in evictions, and households threatened with eviction. 
+As evictions return to and exceed pre-pandemic levels, eviction data has been hard to acquire, especially from Hudson County. Eviction Lab, a research group from Princeton University has provided us with modeled data for eviction rates in Hudson County. Despite being much less populous, Hudson County contends with its two major city neighbors in evictions, and households threatened with eviction. 
