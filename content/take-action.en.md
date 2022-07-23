@@ -5,6 +5,6 @@ image = ''
 description = ''
 disableComments = true
 +++
-We will be hosting city-wide canvasses and phonebanks. [Sign up on our Mobilize page](https://actionnetwork.org/widgets/v4/event/fight-evictions-rally-for-right-to-counsel-in-jc).
+We will be hosting city-wide canvasses and phonebanks. [Sign up on our Mobilize page](https://actionnetwork.org/groups/right-to-counsel-jc).
 
 {{< action-network-form >}}
