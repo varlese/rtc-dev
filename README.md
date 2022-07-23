@@ -1,6 +1,9 @@
 # righttocounsel.github.io
 Right to Counsel Campaign Site
 
+## Theme
+Theme has been forked from https://github.com/curtiscde/hugo-theme-massively and modified by NNJ DSA
+
 ## Creating new posts
 To create a new post, go to `content > posts`. You can use `example-post.en.md` as a template for posts in English, and `example-post.es.md` for posts in Spanish.
 
