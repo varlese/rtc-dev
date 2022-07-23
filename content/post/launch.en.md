@@ -17,6 +17,5 @@ Join us **Sunday, July 24th at noon by City Hall** for the inaugural rally. Let 
 
 {{< button link="https://actionnetwork.org/forms/join-rtc-jc" text="Join Right to Counsel Jersey City" target="_blank" >}}
 
-{{< button link="https://google.com/forms/" text="Test" target="_blank" >}}
 
 {{< action-network-form >}}
