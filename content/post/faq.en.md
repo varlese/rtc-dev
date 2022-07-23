@@ -24,7 +24,7 @@ All tenants in Jersey City will have the right to counsel, regardless of income.
 
 **Will the cost of implementing the right to counsel fall on taxpayers and thus tenants?**
 
-It will not. Those responsible for the eviction crisis – landlords and developers – should be the ones who pay. 
+_It will not._ Those responsible for the eviction crisis – landlords and developers – should be the ones who pay. 
 
 **How will the right to counsel policy be enacted and protected?**
 
