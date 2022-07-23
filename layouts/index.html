@@ -1,24 +1,5 @@
 {{ partial "htmlhead" . }}
 	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
-		<style>
-<<<<<<< HEAD
-			#wrapper > .bg {
-				background: rgb(236,31,39);
-				background: radial-gradient(circle, rgba(236,31,39,1) 70%, rgba(84,89,95,1) 100%); 
-=======
-			body {
-				background-color: #000;
->>>>>>> parent of 6b924d9 (Reverting CSS test.)
-			}
-
-			#intro {
-				background: url('{{ "images/rtcbg.jpeg" | absLangURL }}');
-				background-position: center 60px;
-				background-repeat: no-repeat;
-				background-size: 1534px
-			}
-		</style>
-
 		{{- $postsFoldername := .Site.Params.Posts.foldername | default "post" }}
 		{{- $postsPageSize := .Site.Params.Posts.pagesize | default 6 }}
 
