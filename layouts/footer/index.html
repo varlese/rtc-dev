@@ -3,12 +3,7 @@
 <footer id="footer">
     {{ with $data.contactinfo.contactformaction }}
     <section>
-<<<<<<< HEAD
-	    <p>Questions about Right to Counsel? Email us at</p> <a href=mailto:righttocounseljc@gmail.com>righttocounseljc@gmail.com</a>
-	    <p>Having issues with your landlord? Reach out to North Jersey DSA's Housing Working Group here!</p>
-	    <a href=mailto:nnj.housing@gmail.com>nnj.housing@gmail.com</a>
-=======
-      <form method="post" action="{{ . }}">
+      <form method="POST" action="https://getform.io/f/5ddc2e40-ed41-46fa-95b4-20e576c25701">
         <div class="fields">
           <div class="field">
             <label for="name">{{ i18n "CONTACT_FORM_FIELD_NAME" . }}</label>
@@ -27,7 +22,6 @@
           <li><input type="submit" value='{{ i18n "CONTACT_FORM_SUBMIT_SEND_MESSAGE" . }}' /></li>
         </ul>
       </form>
->>>>>>> parent of 4dc4289 (adding form)
     </section>
     {{ end }}
 </footer>
