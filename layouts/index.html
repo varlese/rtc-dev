@@ -48,7 +48,7 @@
 						{{- if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}
 							{{- partial "posts/list.html" (dict "posts" $postsPaging "siteData" (index .Site.Data .Site.Language.Lang)) }}
 						{{- end }}
-
+						
 						{{- $paginator := .Paginator }}
 						{{- $outer := . }}
 						{{- partial "posts/pagination.html" (dict "paginator" $paginator "outer" $outer)}}
