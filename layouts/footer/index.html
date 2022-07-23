@@ -3,25 +3,9 @@
 <footer id="footer">
     {{ with $data.contactinfo.contactformaction }}
     <section>
-      <form method="post" action="https://getform.io/f/5ddc2e40-ed41-46fa-95b4-20e576c25701">
-        <div class="fields">
-          <div class="field">
-            <label for="name">{{ i18n "CONTACT_FORM_FIELD_NAME" . }}</label>
-            <input type="text" name="name" id="name" />
-          </div>
-          <div class="field">
-            <label for="email">{{ i18n "CONTACT_FORM_FIELD_EMAIL" . }}</label>
-            <input type="text" name="email" id="email" />
-          </div>
-          <div class="field">
-            <label for="message">{{ i18n "CONTACT_FORM_FIELD_MESSAGE" . }}</label>
-            <textarea name="message" id="message" rows="3"></textarea>
-          </div>
-        </div>
-        <ul class="actions">
-          <li><input type="submit" value='{{ i18n "CONTACT_FORM_SUBMIT_SEND_MESSAGE" . }}' /></li>
-        </ul>
-      </form>
+	    <p>Questions about Right to Counsel? Email us at</p> <a href=mailto:righttocounseljc@gmail.com>righttocounseljc@gmail.com</a>
+	    <p>Having issues with your landlord? Reach out to North Jersey DSA's Housing Working Group here!</p>
+	    <a href=mailto:nnj.housing@gmail.com>nnj.housing@gmail.com</a>
     </section>
     {{ end }}
 </footer>
