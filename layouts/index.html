@@ -40,7 +40,11 @@
 					<div id="main">
                         {{- partial "home-intro.html" . -}}
 
-                        <span id="updates"></span>
+						{{- if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}
+						<!-- This is here to allow linking directly to the updates from the menu -->
+                        <div id="updates" stlye="padding: 0; margin:0; border:0;"></div>
+						{{- end }}
+
 						{{- if (eq $postsFeaturedPostEnabled true) }}
 						{{- partial "posts/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
 						{{- end }}
