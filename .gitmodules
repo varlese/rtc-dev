@@ -1,2 +1,5 @@
 [submodule "themes/hugo-theme-massively/"]
 	url = https://github.com/northnjdsa/hugo-theme-massively
+[submodule "themes/hugo-theme-massively"]
+	path = themes/hugo-theme-massively
+	url = https://github.com/northnjdsa/hugo-theme-massively
