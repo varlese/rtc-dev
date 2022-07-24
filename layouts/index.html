@@ -40,7 +40,11 @@
 					<div id="main">
                         {{- partial "home-intro.html" . -}}
 
-                        <div id="updates"></div>
+						{{- if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}
+						<!-- This is here to allow linking directly to the updates from the menu -->
+                        <div id="updates" style="padding: 0; margin:0; border:0;"></div>
+						{{- end }}
+
 						{{- if (eq $postsFeaturedPostEnabled true) }}
 						{{- partial "posts/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
 						{{- end }}
@@ -48,7 +52,7 @@
 						{{- if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}
 							{{- partial "posts/list.html" (dict "posts" $postsPaging "siteData" (index .Site.Data .Site.Language.Lang)) }}
 						{{- end }}
-
+						
 						{{- $paginator := .Paginator }}
 						{{- $outer := . }}
 						{{- partial "posts/pagination.html" (dict "paginator" $paginator "outer" $outer)}}
