@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Right to Counsel Jersey City"
-baseURL = "https://northnjdsa.github.io/righttocounsel.github.io/"
+baseURL = "https://northnjdsa.github.io/"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
