@@ -1,6 +1,6 @@
 languageCode = "en-us"
-title = "Right to Counsel Jersey City"
-baseURL = "https://righttocounseljc.org"
+title = "(Dev) Right to Counsel Jersey City"
+baseURL = "https://varlese.github.io/rtc-dev"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
