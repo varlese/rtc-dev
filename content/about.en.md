@@ -4,7 +4,7 @@ slug = 'about'
 image = ''
 disableComments = true
 +++
-Nationwide, only 3% of tenants are represented in housing court, while for landlords that’s more like 81% on average. Housing is a human right and no one should have to fight for their homes without fair representation. It’s time to demand Jersey City level the playing field and reign in landlord power. **We need to guarantee the right to counsel for ALL tenants.**
+Nationwide, only 3% of tenants are represented in housing court, while for landlords that’s more like 81% on average. Housing is a human right and no one should have to fight for their homes without fair representation. It’s time to demand Jersey City level the playing field and reign in landlord power. **We need to guarantee the right to counsel for ALL tenants.**     
 
 ## A right to counsel for tenants
 
