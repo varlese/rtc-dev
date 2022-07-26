@@ -1,2 +1,1 @@
-{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" false) }}
-<link rel="stylesheet" href="{{ ('assets/css/main.css' | minify).RelPermalink }}">
+<link rel="stylesheet" href="{{ 'assets/css/main.min.css'.absURL }}">
