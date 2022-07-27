@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sourceRoot": "/home/runner/work/rtc-dev/rtc-dev",
+	"sources": [
+		"stdin"
+	],
+	"sourcesContent": [
+		"#main {\n    background: blue;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,CAAC;EACF,UAAU,EAAE,IAAI,GACnB"
+}
