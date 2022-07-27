@@ -1,3 +1,2 @@
-{{ $sass := resources.Get "scss/custom.scss" }}
-{{ $style := $sass | resources.ToCSS }}
-<link rel="stylesheet" href="{{ "assets/css/custom.min.css" | absURL }}">
+{{ $style := resources.Get "scss/custom.scss" | resources.ExecuteAsTemplate "custom.scss" . | toCSS (dict "targetPath" "assets/css/custom.css" "enableSourceMap" true) }}
+<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
