@@ -1,3 +1,22 @@
-#main {
-    background: blue;
-}
+#rtc-header {
+    color: #fff;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-transition: -moz-transform 1s ease,opacity 1s ease;
+    -webkit-transition: -webkit-transform 1s ease,opacity 1s ease;
+    -ms-transition: -ms-transform 1s ease,opacity 1s ease;
+    transition: transform 1s ease,opacity 1s ease;
+    background: rgba(255,255,255,.175);
+    height: 10rem;
+    line-height: 4rem;
+    margin: -4rem auto 0;
+    overflow: hidden;
+    padding: 0 2rem 0 0;
+    position: relative;
+    width: calc(100% - 4rem);
+    max-width: 72rem;
+    z-index: 2;
+  }
+  
