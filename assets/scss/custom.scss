@@ -17,4 +17,17 @@
     align-items: center;
     justify-content: flex-end;
     background: url('/rtc-dev/images/background-example.jpeg');
+    background-size: cover;
+  }
+
+  @media (max-height: 550px) {
+    #rtc-header {
+        top: 0px;
+    }
+  }
+
+  @media (max-width: 980px) {
+    #rtc-header {
+        bottom: 0px;
+    }
   }
