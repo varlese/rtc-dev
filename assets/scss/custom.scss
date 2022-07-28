@@ -1,15 +1,8 @@
 #rtc-header {
     color: #fff;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
-    -moz-transition: -moz-transform 1s ease,opacity 1s ease;
-    -webkit-transition: -webkit-transform 1s ease,opacity 1s ease;
-    -ms-transition: -ms-transform 1s ease,opacity 1s ease;
     transition: transform 1s ease,opacity 1s ease;
     background: rgba(255, 255, 255, 0.175);
-    height: 500px;
     line-height: 4rem;
     margin: auto 0;
     overflow: hidden;
@@ -19,4 +12,9 @@
     max-width: 72rem;
     z-index: 2;
     bottom: 64px;
+    top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: url('/images/rtc-logo-example.jpeg');
   }
