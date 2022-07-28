@@ -8,15 +8,15 @@
     -webkit-transition: -webkit-transform 1s ease,opacity 1s ease;
     -ms-transition: -ms-transform 1s ease,opacity 1s ease;
     transition: transform 1s ease,opacity 1s ease;
-    background: rgba(255,255,255,.175);
-    height: 10rem;
+    background: rgba(255, 255, 255, 0.175);
+    height: 500px;
     line-height: 4rem;
-    margin: -4rem auto 0;
+    margin: auto 0;
     overflow: hidden;
-    padding: 0 2rem 0 0;
-    position: relative;
+    padding: 0px 2rem 0 0;
+    position: absolute;
     width: calc(100% - 4rem);
     max-width: 72rem;
     z-index: 2;
+    bottom: 64px;
   }
-  
