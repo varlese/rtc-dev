@@ -6,8 +6,8 @@
 		"stdin"
 	],
 	"sourcesContent": [
-		"#rtc-header {\n    color: #fff;\n    display: -moz-flex;\n    display: -webkit-flex;\n    display: -ms-flex;\n    display: flex;\n    -moz-transition: -moz-transform 1s ease,opacity 1s ease;\n    -webkit-transition: -webkit-transform 1s ease,opacity 1s ease;\n    -ms-transition: -ms-transform 1s ease,opacity 1s ease;\n    transition: transform 1s ease,opacity 1s ease;\n    background: rgba(255, 255, 255, 0.175);\n    height: 500px;\n    line-height: 4rem;\n    margin: auto 0;\n    overflow: hidden;\n    padding: 0px 2rem 0 0;\n    position: absolute;\n    width: calc(100% - 4rem);\n    max-width: 72rem;\n    z-index: 2;\n    bottom: 64px;\n  }"
+		"#rtc-header {\n    color: #fff;\n    display: flex;\n    transition: transform 1s ease,opacity 1s ease;\n    background: rgba(255, 255, 255, 0.175);\n    line-height: 4rem;\n    margin: auto 0;\n    overflow: hidden;\n    padding: 0px 2rem 0 0;\n    position: absolute;\n    width: calc(100% - 4rem);\n    max-width: 72rem;\n    z-index: 2;\n    bottom: 64px;\n    top: 100px;\n    flex-direction: column;\n    align-items: center;\n    justify-content: flex-end;\n    background: url('/images/rtc-logo-example.jpeg');\n  }"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,WAAW,CAAC;EACR,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,SAAS;EAClB,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,QAAQ;EACjB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,sCAAsC;EACvD,kBAAkB,EAAE,yCAAyC;EAC7D,cAAc,EAAE,qCAAqC;EACrD,UAAU,EAAE,iCAAiC;EAC7C,UAAU,EAAE,0BAA0B;EACtC,MAAM,EAAE,KAAK;EACb,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,MAAM;EACd,QAAQ,EAAE,MAAM;EAChB,OAAO,EAAE,YAAY;EACrB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,iBAAiB;EACxB,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,IAAI,GACb"
+	"mappings": "AAAA,AAAA,WAAW,CAAC;EACR,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,iCAAiC;EAC7C,UAAU,EAAE,0BAA0B;EACtC,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,MAAM;EACd,QAAQ,EAAE,MAAM;EAChB,OAAO,EAAE,YAAY;EACrB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,iBAAiB;EACxB,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,IAAI;EACZ,GAAG,EAAE,KAAK;EACV,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,QAAQ;EACzB,UAAU,EAAE,oCAAoC,GACjD"
 }
