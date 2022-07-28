@@ -2,6 +2,7 @@
 {{ with $data.intro }}
 <div id="intro">
     <div id="rtc-header">
+        <img class="rtc-log" src="/rtc-dev/images/rtc-logo-example.jpeg" />
         <h1>
             {{- range $i, $e := .title -}}
                 {{- if $i -}}<br/>{{- end -}} {{- .line -}}
